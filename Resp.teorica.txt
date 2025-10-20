@@ -1,0 +1,30 @@
+#ABSTRAÇAO
+Deve conter esses atributos: classificação, o ano que foi lançado e tempo para permanecer com os mesmos.
+metodos: titulo e autor
+
+resposta: C
+#HERANÇA
+
+Herança na programaçao é como poder utilizar metodos e atributos que uma outra classe chamada pai, e com isso
+ o código ficar mais inchuto e limpo, sem precisar escrever as mesmas coisas varias vezes.
+*Como por exemplo um mercado tem varios produtos a venda e podemos detalhar tudo em um codigo, 
+em seguida, será necessario utilizar esses produtos e quantidades para organizar o estoque, eu não preciso escrever todos os
+produtos novamente, só utilizar a classe pai como base.
+VERDADEIRO OU FALSO:
+resposta: F,V,V 
+
+#POLIMORFISMO
+
+capacidade de objetos diferentes responderem de formas diferentes a um mesmo método.
+O polimorfismo nos ajuda a adaptar uma classe em outra como por exemplo o caso do pessoa, aluno e prof.
+Apesar de todos os objetos terem o mesmo método exibir_dados(), cada um se comporta de forma diferente.
+Polimorfismo acontece quando diferentes classes podem usar o mesmo método de formas diferentes.
+
+ Será exibida na primeira chamada a mensagem (Disparando notificações,'Bem-vindo ao sistema!') para os dados adicionados ao sistema como email,sms,token.  
+já na segunda será feita a mesma coisa sendo com a mensagem(Aproveite nossa promoção imperdível com 50% de desconto!),mas o sms só recebe 20 caracteres e vai ser cortada quando isso for atingido
+Cada objeto (NotificacaoEmail, NotificacaoSMS, NotificacaoPush) tem o mesmo método enviar, mas cada um implementa de forma diferente.
+
+#ENCAPSULAMENTO
+
+Para que outros usuarios nao mexem no codigo, fazendo assim as alterações que eles quiserem em dados sigilosos.
+resposta: D
