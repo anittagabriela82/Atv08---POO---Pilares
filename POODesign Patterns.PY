@@ -10,7 +10,7 @@ class FabricaDeProdutos:
         return None
 
     def FabricaModerna(self):
-        print("📱 Você escolheu o estilo moderno!")
+        print("Você escolheu o estilo moderno!")
         if self.ingressos == 1:
             print("Ingresso com QR code + pipoca gourmet + suco natural.")
         return None
@@ -32,3 +32,4 @@ else:
     print("Opção inválida!")
 
         
+
